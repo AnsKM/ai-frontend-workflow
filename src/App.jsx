@@ -142,29 +142,50 @@ function App() {
         <div className="container">
           <div className="before-mockup-wrapper animate-on-scroll">
             <div className="before-label">What I was getting...</div>
-            <div className="before-mockup">
+            <div className="before-mockup lumina-style">
               <div className="mockup-browser">
                 <div className="mockup-dots">
                   <span></span><span></span><span></span>
                 </div>
-                <div className="mockup-url">generic-ai-output.vercel.app</div>
+                <div className="mockup-url">lumina-ai-landing.vercel.app</div>
               </div>
-              <div className="mockup-content">
-                <div className="mockup-header">
-                  <div className="mockup-logo"></div>
-                  <div className="mockup-nav">
-                    <span></span><span></span><span></span>
+              <div className="mockup-content-lumina">
+                {/* Header */}
+                <div className="lumina-header">
+                  <div className="lumina-logo">✦ Lumina</div>
+                  <div className="lumina-cta-small">Get Started</div>
+                </div>
+
+                {/* Hero */}
+                <div className="lumina-hero">
+                  <div className="lumina-badge">✦ Welcome to the future</div>
+                  <div className="lumina-title">
+                    <span className="lumina-gradient-text">Experience the</span>
+                    <span className="lumina-white-text">Extraordinary</span>
+                  </div>
+                  <div className="lumina-subtitle">
+                    Transform your ideas into reality with cutting-edge technology designed for innovators who refuse to settle.
+                  </div>
+                  <div className="lumina-buttons">
+                    <div className="lumina-btn-primary">Start Your Journey →</div>
+                    <div className="lumina-btn-secondary">Watch Demo</div>
                   </div>
                 </div>
-                <div className="mockup-hero-fake">
-                  <div className="mockup-title"></div>
-                  <div className="mockup-subtitle"></div>
-                  <div className="mockup-btn"></div>
-                </div>
-                <div className="mockup-cards">
-                  <div className="mockup-card"></div>
-                  <div className="mockup-card"></div>
-                  <div className="mockup-card"></div>
+
+                {/* Stats */}
+                <div className="lumina-stats">
+                  <div className="lumina-stat">
+                    <span className="lumina-stat-value">50K+</span>
+                    <span className="lumina-stat-label">Users</span>
+                  </div>
+                  <div className="lumina-stat">
+                    <span className="lumina-stat-value">99.9%</span>
+                    <span className="lumina-stat-label">Uptime</span>
+                  </div>
+                  <div className="lumina-stat">
+                    <span className="lumina-stat-value">⚡ Fast</span>
+                    <span className="lumina-stat-label">Performance</span>
+                  </div>
                 </div>
               </div>
               <div className="mockup-badge">
@@ -174,8 +195,8 @@ function App() {
               </div>
             </div>
             <p className="before-caption">
-              Every. Single. Time. The same purple-to-pink gradient. The same "revolutionize your workflow" copy.
-              The same cards with rounded corners floating in the void.
+              Every. Single. Time. "Experience the Extraordinary." "Transform your ideas."
+              The same purple-to-pink gradient. The same sparkle icon. You've seen this page a thousand times.
             </p>
           </div>
         </div>
